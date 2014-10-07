@@ -7,8 +7,7 @@ define([
   mocha.setup("bdd");
 
   require([
-    "specs/object.js",
-    "specs/array.js"
-  ], mocha.run);
- 
+    "test/model.js",
+    "test/collection.js"
+  ], mocha.run); 
 });

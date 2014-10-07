@@ -5,7 +5,7 @@ define([
   "vetbone"
 ], function(chai, Backbone, rivets) {
 
-  describe("Object", function() {
+  describe("Backbone Model", function() {
     describe("binding", function() {
       it("model and jquery element", function() {
 
