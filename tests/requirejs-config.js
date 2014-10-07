@@ -5,7 +5,7 @@ requirejs.config({
     "underscore": "libs/underscore/underscore",
     "backbone": "libs/backbone/backbone",
     "rivets": "libs/rivets/dist/rivets",
-    "vetbone": "../dist/vetbone",
+    "vetbone": "../dist/vetbone-debug",
     "mocha": "libs/mocha/mocha",
     "chai": "libs/chai/chai"
   },
