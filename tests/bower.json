@@ -1,0 +1,25 @@
+{
+  "name": "VetBoneTests",
+  "version": "0.0.1",
+  "homepage": "https://github.com/MiguelCastillo/VetBone",
+  "authors": [
+    "Miguel Castillo <manchagnu@gmail.com>"
+  ],
+  "description": "Unit tests for VetBone",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "requirejs": "~2.1.15",
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.1",
+    "mocha": "~1.21.4",
+    "rivets": "~0.6.10",
+    "chai": "~1.9.2"
+  }
+}

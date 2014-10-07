@@ -1,0 +1,26 @@
+{
+  "name": "vetbone",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Miguel Castillo <manchagnu@gmail.com>",
+  "title": "VetBone",
+  "description": "Rivets adapter for Backbone to provide bidirectional data binding",
+  "homepage": "https://github.com/MiguelCastillo/VetBone",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/MiguelCastillo/VetBone.git"
+  },
+  "bugs": {
+    "email": "manchagnu@gmail.com",
+    "url": "https://github.com/MiguelCastillo/VetBone/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-requirejs": "~0.4.1"
+  },
+  "main": "dist/vetbone.js",
+  "keywords": [
+    "rivets",
+    "backbone"
+  ]
+}
