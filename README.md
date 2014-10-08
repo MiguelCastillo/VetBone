@@ -10,6 +10,9 @@ Rivets adapter for Backbone to enable bidirecitonal data binding in Backbone Vie
 2. Rivets integration with Backbone Collections
 3. Rivets integration with Backbone Models
 
+### Install
+`bower vetbone`
+
 ### Setup
 
 The only thing that needs to happen is load VetBone once so that it can register itself with Rivets. And since VetBone depends on Rivets and Backbone, it needs to be loaded after Backbone and Rivets.
