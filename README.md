@@ -11,7 +11,7 @@ Rivets adapter for Backbone to enable bidirecitonal data binding in Backbone Vie
 3. Rivets integration with Backbone Models
 
 ### Install
-`bower vetbone`
+`bower install vetbone`
 
 ### Setup
 
