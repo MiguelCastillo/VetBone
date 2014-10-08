@@ -5,7 +5,7 @@
   "authors": [
     "Miguel Castillo <manchagnu@gmail.com>"
   ],
-  "description": "RivetJS adapter for Backbone to provide bidirecitonal data binding in Backbone Views",
+  "description": "Rivets adapter for Backbone to provide bidirecitonal data binding in Backbone Views",
   "main": "dist/vetbone.js",
   "keywords": [
     "rivets",
