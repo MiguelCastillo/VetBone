@@ -1,0 +1,22 @@
+{
+  "name": "VetBone",
+  "version": "0.5.0",
+  "homepage": "https://github.com/MiguelCastillo/VetBone",
+  "authors": [
+    "Miguel Castillo <manchagnu@gmail.com>"
+  ],
+  "description": "RivetJS adapter for Backbone to provide bidirecitonal data binding in Backbone Views",
+  "main": "dist/vetbone.js",
+  "keywords": [
+    "rivets",
+    "backbone"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
