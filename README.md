@@ -58,6 +58,6 @@ collection = new Backbone.Collection([
 rivets.bind($el, {collection: collection});
 ```
 
-Notice `collection:items`.  `items` isn't really a property in `collection`, but it's a way to sneak in the `:` and tell VetBone about the Backbone Collection.
+Notice `collection:items`.  `items` isn't really a property in `collection`, but it's a way to sneak in the `:` and tell VetBone about the Backbone Collection.  As a matter of fact, `items` can be anything you want.
 
 This issue does not occur is the collection is a property in a model that's delimited with `:`.
