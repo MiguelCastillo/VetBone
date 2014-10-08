@@ -16,17 +16,17 @@ The only thing that needs to happen is load VetBone once so that it can register
 
 When loading VetBone as an AMD module, the module IDs it depends on are `backbone` and `rivets`. So you will need to make sure those modules are registered with those IDs.
 
-### Rivets Adapter
+### Rivets Adapter and data binding
 
-In order to tell rivets about your Backbone Model and Collection properties, your data binding needs to use `:` as a property demiliter.  Which means that only properties that are delmited `:` can be considered as Backbone data.
+In order to tell rivets about your Backbone Model properties and Collection data, your html needs to annothed with `:` as the property demiliter.  Which means that only properties that are delimited by `:` can be treated as Backbone data.
 
-For example, `<span rv-html="model:name"></span>` will enable rivets data binding of Backbone `model` property `name`.
+For example, `<span rv-html="model:name"></span>` will enable rivets data binding for the Backbone `model` property `name`.
 
-* The default adapter for accessing properties with `.` continues to work and can also be mixed with `:`.
+* The default adapter for accessing properties with `.` is unchanged and can be mixed with `:`.
 
 ### Examples
 
-This is a very simple example extracted from one of the unit tests
+This is a very simple example extracted from one of the VetBone unit tests
 
 ``` javascript
   // Sample jquery html.  Notice 'model:text'.  vetbone uses ':' to tell rivets that
