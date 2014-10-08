@@ -61,3 +61,7 @@ rivets.bind($el, {collection: collection});
 Notice `collection:items`.  `items` isn't really a property in `collection`, but it's a way to sneak in the `:` delimiter and tell VetBone about the Backbone Collection.  As a matter of fact, `items` can be anything you want.
 
 This issue does not occur if the collection is a property in a model that's delimited with `:`.
+
+### Links
+<a href="http://backbonejs.org/">Backbone</a>
+<a href="http://rivetsjs.com/">Rivets</a>
