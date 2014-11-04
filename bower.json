@@ -8,6 +8,9 @@
   "description": "Rivets adapter for Backbone to provide bidirecitonal data binding in Backbone Views",
   "main": "dist/vetbone.js",
   "keywords": [
+    "adapter",
+    "binding",
+    "data",
     "rivets",
     "backbone"
   ],
